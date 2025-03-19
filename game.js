@@ -22,5 +22,9 @@ function create() {
 }
 
 function update() {
+function create() {
+  this.add.text(100, 100, 'Hello Phaser!', { fontSize: '32px', fill: '#fff' });
+}
+
   // อัปเดตเกม
 }
